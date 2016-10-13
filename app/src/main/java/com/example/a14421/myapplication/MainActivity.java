@@ -2,6 +2,7 @@ package com.example.a14421.myapplication;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
@@ -14,5 +15,6 @@ public class MainActivity extends Activity {
         textView = (TextView) findViewById(R.id.sherry);
         textView.setText(getResources().getText(R.string.sherry));
         textView.setTextColor(getResources().getColor(R.color.colorPrimary));
+        Log.e("Tag","哈哈");
     }
 }
